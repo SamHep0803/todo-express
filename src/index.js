@@ -34,3 +34,5 @@ app.set("view engine", "ejs");
 
 // Routes Setup
 app.use("/", routes.root);
+app.use("/edit", routes.edit);
+app.use("/remove", routes.remove);
